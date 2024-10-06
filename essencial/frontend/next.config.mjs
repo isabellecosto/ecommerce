@@ -6,7 +6,7 @@ const nextConfig = {
         remotePatterns: [
             {
                 protocol: 'https',
-                hostname: 'firebasestorage.googleapis.com',
+                hostname: '**', // esse ** faz com que ele não ligue para a origem dos arquivos que coloco no projeto
             }, 
         ],
     },
